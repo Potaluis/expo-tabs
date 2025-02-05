@@ -10,10 +10,11 @@ export const GlobalStyles = StyleSheet.create({
     },
     
     titulo: {
-        fontSize: 50,
+        fontSize: 75,
         fontFamily: 'Roboto',
         fontWeight: 'bold',
-        color: '#ff4242'
+        color: '#ff4242',
+        transform: [{translateY: -50}]
     },
 
     estiloinput:{
