@@ -4,22 +4,35 @@ export const GlobalStyles = StyleSheet.create({
     containerCentrado: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#f9f9f9'
     },
     titulo: {
-        fontSize: 25,
+        fontSize: 50,
         fontFamily: 'Roboto',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color: '#ff4242'
     },
     estiloinput:{
         margin: 15,
-        borderColor: '#55555',
+        borderColor: '#ff4242',
         borderWidth: 3,
         borderRadius: 15,
         padding: 20,
         fontFamily: 'Roboto',
-        color: '#55555',
         width: '95%',
-        backgroundColor: '#fff'
-    }
+        backgroundColor: '#f9f9f9'
+    },
+
+    botonesLogin:{
+        flexDirection: 'row',
+    },
+
+    botonesIndividual:{
+        backgroundColor: '#ff4242',
+        marginHorizontal: 25,
+        padding: 5,
+        color: '#ffffff',
+        borderRadius: 15,
+    },
 })
