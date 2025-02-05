@@ -15,14 +15,14 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="productos/index"
         options={{
-          title:'productos',
+          title:'SIGN OUT',
           tabBarIcon: ({ color }) => <Ionicons size={28} name="film-outline" color={color} />,
         }}
       />
       <Tabs.Screen
         name="configuracion/index"
         options={{
-          title: 'Configuracion',
+          title: 'BASE DE DATOS',
           tabBarIcon: ({ color }) => <Ionicons size={28} name="construct-outline" color={color} />,
         }}
       />
