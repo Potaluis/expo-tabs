@@ -3,16 +3,19 @@ import { StyleSheet } from "react-native"
 export const GlobalStyles = StyleSheet.create({
     containerCentrado: {
         flex: 1,
+        width: '90%',
+        margin: 20,
         justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#f9f9f9'
+        alignItems: 'center',  
     },
+    
     titulo: {
         fontSize: 50,
         fontFamily: 'Roboto',
         fontWeight: 'bold',
         color: '#ff4242'
     },
+
     estiloinput:{
         margin: 15,
         borderColor: '#ff4242',
@@ -30,7 +33,7 @@ export const GlobalStyles = StyleSheet.create({
 
     botonesIndividual:{
         backgroundColor: '#ff4242',
-        marginHorizontal: 25,
+        marginHorizontal: 19,
         padding: 5,
         color: '#ffffff',
         borderRadius: 15,
